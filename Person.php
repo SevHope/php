@@ -55,7 +55,7 @@ class Person {
 $alex = new Person("Alex", "Ivanov", 72);
 $irina = new Person("Irina", "Ivanova", 70);
 $anna = new Person("Anna", "Petrova", 74);
-$oleg = new person("Oleg", "Petrov", 76);
+$oleg = new Person("Oleg", "Petrov", 76);
 $igor = new Person("Igor", "Petrov", 40, $anna, $oleg);
 $olga = new Person("Olga", "Petrova", 38, $irina, $alex);
 $valera = new Person("Valera", "Petrov", 10, $olga, $igor);
